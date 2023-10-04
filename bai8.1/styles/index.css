@@ -11,6 +11,8 @@ html{
     scroll-behavior: smooth;/*cuộn*/
 
 }
+
+/* thẻ header */
 #header{
     width: 100%;
     height: 70px;
@@ -60,16 +62,12 @@ a{
     display: none;
 }
 
-
-
-
-
-
+/* silder */
 #slider{
     height: 1000px;
     position: relative;
     background: #000;
-    background-image: linear-gradient(0,rgba(19, 18, 18, 0.71),rgba(19, 18, 18, 0.71)), url(/unit05/img/img_2.jpg.webp);
+    background-image: linear-gradient(0,rgba(19, 18, 18, 0.71),rgba(19, 18, 18, 0.71)), url(/unit05/bai8.1/img/img_2.jpg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 1.5;
@@ -115,6 +113,7 @@ a{
 }
 
 
+/* /content center/ */
 .container1{
     justify-content: space-around;
     display: flex;
@@ -132,6 +131,8 @@ a{
     display: flex;
     color: #000;
 }
+
+/* .content-left */
 .content-left-text{
     color: #818080;
     line-height: 1.5;
@@ -246,9 +247,7 @@ padding: 30px;
 
 }
 
-
-
-
+/* content right */
 .read-bio{
     background-color: rgb(26, 148, 255);
     color: #fff;
@@ -330,8 +329,6 @@ padding: 30px;
 .tag-list li{
     margin: 0 5px 0 0;
 }
-
-
 
 
 #more-related{
@@ -493,6 +490,9 @@ height: 100%;
     background-color: #3f75f5;
     cursor: pointer;
 }
+
+
+/* footer */
 #footer{
     background-color: #333333;
     padding: 80px 10%;
